@@ -1,5 +1,5 @@
 #include <iostream>
-
+int k;
 int numbers_of_ways(int steps, int maxJump = 3) {
   if (steps == 0) {
     return 1;
