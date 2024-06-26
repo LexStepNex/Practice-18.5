@@ -11,7 +11,7 @@ void swapVec(std::vector<int>& vec, int arr[]) {
   }
 }
 
-void print_vec_and_arr(std::vector<int> vec, int arr[]) {
+void print_vec_and_arr(std::vector<int>& vec, int arr[]) {
   int size = vec.size();  // Вектор и массив равны по размеру
 
   std::cout << "vector: ";

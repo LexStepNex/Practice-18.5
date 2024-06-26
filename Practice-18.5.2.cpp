@@ -9,7 +9,7 @@ int numbers_of_ways(int steps, int maxJump = 3) {
     int sum = 0;
     for (int count = maxJump; count > 0; steps--, count--) {
       sum += numbers_of_ways(steps - 1, maxJump);
-      //**сумма чисел по типу Фибоначчи но количество
+      //**сумма чисел по типу Фибоначчи, но количество чисел в сумме
       // зависит от максимального прыжка*/
     }
     return sum;
